@@ -1,0 +1,17 @@
+{
+  "name": "zero-to-shipped-3-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Express server: resume-to-job-description fit reports via labd",
+  "scripts": {
+    "start": "node --env-file=.env server.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.24.9"
+  }
+}
